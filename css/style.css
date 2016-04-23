@@ -9,13 +9,24 @@ h2
 {
 	color:#213647;
 }
-.container-fluid
+.container-fluid,
+.container
 {
 	padding-right:0px;
 	padding-left:0px;
+	border:1px solid #000;
 }
 
-
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.subbanner .col-sm-4:first-child{
+	padding-left:0px;
+}
+.subbanner .col-sm-4:last-child{
+	padding-right:0px;
+}
 .mobile-logowrapper 
 {
 	background: none repeat scroll 0 0 #fff;
@@ -624,6 +635,8 @@ border-radius:0px !important;
 	{
 		width:65%;
 	}
+	
+
 	
 
 }
