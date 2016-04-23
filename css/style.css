@@ -616,7 +616,14 @@ border-radius:0px !important;
 		width:100%;
 		float:left;
 	}
-
+	.fp .col-sm-3
+	{
+		width:35%;
+	}
+	.fp .col-sm-9
+	{
+		width:65%;
+	}
 	
 
 }
