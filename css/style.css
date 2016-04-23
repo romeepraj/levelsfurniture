@@ -315,6 +315,10 @@ background-color:transparent;
 {
 	border-radius:0;
 }
+.nav > li > a {
+   
+    padding: 10px 20px;
+}
 .navbar-default
 {
 background-color:#24364a;
@@ -474,6 +478,7 @@ font-weight:bold;
 .logo-wrapper .footer-logo {
 	margin:0px 0px 40px 0px;
 	width:inherit;
+	max-width:100%;
 }
 .desktop-footer .col-md-3:first-child{
 	padding-left:0;
