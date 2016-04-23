@@ -1,22 +1,18 @@
 
-body
-{
+body{
 	color:#4a4f4b;
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
 }
-h2
-{
+h2{
 	color:#213647;
 }
 .container-fluid,
-.container
-{
+.container{
 	padding-right:0px;
 	padding-left:0px;
 	border:1px solid #000;
 }
-
 .row {
     margin-right: 0px;
     margin-left: 0px;
@@ -27,8 +23,13 @@ h2
 .subbanner .col-sm-4:last-child{
 	padding-right:0px;
 }
-.mobile-logowrapper 
-{
+.desktop-logowrapper .col-md-4:first-child{
+	padding-left:0;
+}
+.desktop-logowrapper .col-md-3{
+	padding-right:0;
+}
+.mobile-logowrapper {
 	background: none repeat scroll 0 0 #fff;
     color: #ccc;
     font-weight: bold;
@@ -106,7 +107,8 @@ h2
     border-width: 10px;
     margin-top: -10px;
 }
-.m-cart-item:after, .m-cart-item:before {
+.m-cart-item:after, .m-cart-item:before 
+{
     right: 55%;
     top: 50%;
     border: solid transparent;
@@ -119,6 +121,7 @@ h2
 .m-search
 {
 	float:left;
+	width:100%;
 }
 .desktop-logowrapper
 {
@@ -128,11 +131,11 @@ h2
 a.menu-mobile {
     background: url("../images/menu.jpg") no-repeat scroll center center #fff;
     display: block;
-    height: 35px;
+    height: 16px;
     left: 7px;
     position: absolute;
     bottom: 29px;
-    width: 35px;
+    width: 16px;
     z-index: 99999;
     margin-top: 5px;
     cursor: pointer;
@@ -140,11 +143,11 @@ a.menu-mobile {
 a.menu-mobile-t{
     background: url("../images/menu.jpg") no-repeat scroll center center #fff;
     display: block;
-    height: 35px;
+    height: 16px;
     left: 0px;
     position: absolute;
-    bottom: -38px;
-    width: 35px;
+    bottom: -33px;
+    width: 16px;
     z-index: 99999;
     margin-top: 5px;
     cursor: pointer;
@@ -156,7 +159,7 @@ a.menu-mobile-t{
 	top:4px;
 }
 .tl-wrapper{
-	margin:10px 0px 15px 0px
+	margin:0px 0px 15px 0px
 }
 .mini-links
 {
@@ -240,7 +243,7 @@ a.menu-mobile-t{
 }
 .cart-wrapper:after, .cart-wrapper:before 
 {
-	right: 55%;
+	right: 52%;
 	top: 50%;
 	border: solid transparent;
 	content: " ";
@@ -301,6 +304,7 @@ background-color:transparent;
 #navbar .dropdown
 {
 	background:#3c546c;
+	padding: 0px 50px 0px 0px;
 
 }
 #navbar .dropdown a
@@ -333,9 +337,12 @@ background-color:#24364a;
 .newsletter
 {
 	border:15px solid #ecf0f1;
-	margin:50px 0px 80px 0px;
+	margin:50px 0px;
 	float:left;
+	padding:20px 30px;
+
 }
+
 .newsletter h3
 {
 	color:#2a517c;
@@ -380,10 +387,7 @@ font-weight:bold;
     display: flex;
     align-items: center;
 }
-.newsletter
-{
-	padding:20px 30px;
-}
+
 .newsletter .input-group{
 	margin-top:5%;
 
@@ -439,10 +443,11 @@ font-weight:bold;
 .logo-wrapper
 {
 	margin:45px 0px 45px 0px;
+	padding:0;
 }
 .footer-top ul li 
 {
-	color:#fff;
+	color:#bbcbda;
 	list-style:none;
 	padding:5px 0px;
 }
@@ -469,6 +474,9 @@ font-weight:bold;
 .logo-wrapper .footer-logo {
 	margin:0px 0px 40px 0px;
 	width:inherit;
+}
+.desktop-footer .col-md-3:first-child{
+	padding-left:0;
 }
 .logo-wrapper p
 {
@@ -584,8 +592,10 @@ border-radius:0px !important;
 	
 	.newsletter
 	{
-		margin:55px 10px 72px 10px !important;
+		/*margin:55px 10px 72px 10px !important;*/
 		text-align:center;
+		margin:50px 2% 80px 2%;
+	width:96%;
 	}
 	.jcarousel .price-list li
 	{
@@ -645,6 +655,16 @@ border-radius:0px !important;
 	.newsletter
 	{
 		text-align:center;
+		margin:50px 2% 80px 2%;
+		width:96%;
+	}
+	.newsletter .form-control
+	{
+		width:84%;
+	}
+	.newsletter .col-md-6
+	{
+		width:100%;
 	}
 	.cf1
 	{
@@ -655,6 +675,11 @@ border-radius:0px !important;
 	{
 		width:100%;
 		float:left;
+		padding-left:0;
+	}
+	.footer-bottom-left
+	{
+		padding-left:0;
 	}
 	.fp .col-sm-3
 	{
@@ -739,4 +764,12 @@ border-radius:0px !important;
     right: 0px;
     padding: 10px 12px;
     pointer-events: none;
+}
+.cf1 div:first-child{
+	float:left;
+	min-height:37px;
+}
+.cf1 .fa {
+	margin:0px 10px 0px 0px;
+
 }
