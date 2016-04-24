@@ -594,6 +594,14 @@ border-radius:0px !important;
 	    justify-content: center;
 	    align-items: center;
 	}
+	@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) 
+	{ @media {
+	    .mini-links { 
+
+	        width:600px;
+
+	    }
+	}}
 	.m-cart-item:after, .m-cart-item:before {
     right: 35%;
     }
