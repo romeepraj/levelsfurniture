@@ -40,7 +40,7 @@
 .mm-listview li a{ color:#fff !important;}
 .mm-listview>li{position:relative}
 .mm-listview>li,.mm-listview>li .mm-next,.mm-listview>li .mm-next:before,.mm-listview>li:after{border-color:#3d5265;}
-.mm-listview>li>a,.mm-listview>li>span{color:inherit;display:block;padding:10px 10px 10px 20px;margin:0}
+.mm-listview>li>a,.mm-listview>li>span{color:inherit;display:block;padding:10px 10px 10px 30px;margin:0}
 .mm-listview>li>a.mm-arrow,.mm-listview>li>span.mm-arrow{padding-right:50px}
 .mm-listview>li:not(.mm-divider):after{content:'';border-bottom-width:1px;border-bottom-style:solid;display:block;position:absolute;right:0;bottom:0;left:20px}
 .mm-listview .mm-next{background:rgba(3,2,1,0);width:50px;padding:0;position:absolute;right:0;top:0;bottom:0;z-index:2}
