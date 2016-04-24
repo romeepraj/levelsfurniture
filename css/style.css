@@ -243,6 +243,7 @@ a.menu-mobile-t {
 	right: 0;
     width: 40%;
     float: right;
+    left:auto;
 }
 .navbar-collapse {
     padding-right: 0px !important;
